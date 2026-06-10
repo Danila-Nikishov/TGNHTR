@@ -56,29 +56,6 @@ Recognized Text
 | `Dense`       | Классификатор по словарю символов                       |
 | `CTC Loss`    | Обучение без выровненной разметки                       |
 
-### Model Flow
-
-```text
-Nodes
- │
- ▼
-Linear Projection
- │
- ▼
-GAT → GAT → GAT
- │
- ▼
-Temporal Gather
- │
- ▼
-BiLSTM
- │
- ▼
-Dense
- │
- ▼
-CTC Loss
-```
 
 ---
 
